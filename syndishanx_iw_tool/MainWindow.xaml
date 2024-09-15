@@ -1,0 +1,54 @@
+﻿<Window x:Class="syndishanx_iw_tool.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:syndishanx_iw_tool"
+        mc:Ignorable="d"
+        Title="SyndiShanX's IW Tool" Height="560" Width="310"
+        Background="#404040">
+
+    <Grid Height="500" Width="200">
+        <Button   x:Name="Connect_Button"             Margin="5,5,5,475"     Content="Connect"           Click="Connect_Button_Click"        Background="#c0c0c0"/>
+
+        <CheckBox x:Name="Infinite_Ammo_Checkbox"     Margin="5,40,5,440"    Content="Infinite Ammo"     Checked="Infinite_Ammo_Checked"     Background="#c0c0c0"           Foreground="white"/>
+        <CheckBox x:Name="Infinite_Grenades_Checkbox" Margin="5,65,5,415"    Content="Infinite Grenades" Checked="Infinite_Grenades_Checked" Background="#c0c0c0"           Foreground="white"/>
+        <CheckBox x:Name="Godmode_Checkbox"           Margin="5,90,5,390"    Content="Godmode"           Checked="Godmode_Checked"           Unchecked="Godmode_Checked"      Background="#c0c0c0" Foreground="white"/>
+        <CheckBox x:Name="No_Clip_Checkbox"           Margin="5,115,5,365"   Content="No Clip"           Checked="No_Clip_Checked"           Unchecked="No_Clip_Checked"      Background="#c0c0c0" Foreground="white"/>
+        <CheckBox x:Name="No_Target_Checkbox"         Margin="5,140,5,340"   Content="No Target"         Checked="No_Target_Checked"         Unchecked="No_Target_Checked"    Background="#c0c0c0" Foreground="white"/>
+        <CheckBox x:Name="No_Recoil_Checkbox"         Margin="5,165,5,315"   Content="No Recoil"         Checked="No_Recoil_Checked"         Unchecked="No_Recoil_Checked"    Background="#c0c0c0" Foreground="white"/>
+        <CheckBox x:Name="Rapid_Fire_Checkbox"        Margin="5,190,5,290"   Content="Rapid Fire"        Checked="Rapid_Fire_Checked"        Unchecked="Rapid_Fire_Checked"   Background="#c0c0c0" Foreground="white"/>
+        <CheckBox x:Name="Third_Person_Checkbox"      Margin="5,215,5,265"   Content="Third Person"      Checked="Third_Person_Checked"      Unchecked="Third_Person_Checked" Background="#c0c0c0" Foreground="red"/>
+        <CheckBox x:Name="One_Hit_Kill_Checkbox"      Margin="5,240,5,240"   Content="One Hit Kill"      Checked="One_Hit_Kill_Checked"      Unchecked="One_Hit_Kill_Checked" Background="#c0c0c0" Foreground="white"/>
+        <CheckBox x:Name="Low_Gravity_Checkbox"       Margin="5,265,5,215"   Content="Low Gravity"       Checked="Low_Gravity_Checked"       Unchecked="Low_Gravity_Checked"  Background="#c0c0c0" Foreground="white"/>
+
+        <Label    Content="Numpad 1"                  Margin="0,35,6,440"    HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 6"                  Margin="0,60,5,415"    HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 2"                  Margin="0,85,5,390"    HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 0"                  Margin="0,110,5,365"   HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 3"                  Margin="0,135,5,340"   HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 4"                  Margin="0,160,5,315"   HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 5"                  Margin="0,185,5,290"   HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 7"                  Margin="0,210,5,265"   HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 8"                  Margin="0,235,5,240"   HorizontalAlignment="Right" Foreground="Gold"/>
+        <Label    Content="Numpad 9"                  Margin="0,260,5,215"   HorizontalAlignment="Right" Foreground="Gold"/>
+
+        <CheckBox x:Name="Hotkeys_Checkbox"           Margin="5,300,5,180"   Content="Enable Hotkeys"    Checked="Hotkeys_Checked"           Unchecked="Hotkeys_Checked"      Background="#c0c0c0" Foreground="white"/>
+
+        <TextBox  x:Name="Timescale_TextBox"          Margin="5,365,100,115" Width="90"                  HorizontalAlignment="Left"          Text="1"/>
+        <Button   x:Name="Set_Timescale_Button"       Margin="105,365,5,115" Content="Set Timescale"     Click="Set_Timescale_Button_Click"  Background="#c0c0c0"/>
+
+        <TextBox  x:Name="Scene_TextBox"              Margin="5,390,100,90" Width="90"                  HorizontalAlignment="Left"          Text="1"/>
+        <Button   x:Name="Set_Scene_Button"           Margin="105,390,5,90" Content="Set Scene"         Click="Set_Scene_Button_Click"      Background="#c0c0c0"           Grid.Row="1"/>
+
+        <ComboBox x:Name="Currency_Combo_Box"         Margin="5,415,105,65"  SelectedIndex="0">
+            <ComboBoxItem Content="Cash"              Background="#c0c0c0"/>
+            <ComboBoxItem Content="Tickets"           Background="#c0c0c0"/>
+        </ComboBox>
+        <CheckBox x:Name="Freeze_Currency_Checkbox"   Margin="105,415,5,65"   Content="Freeze"           Background="#c0c0c0"              Foreground="white"/>
+        <TextBox  x:Name="Currency_TextBox"           Margin="5,440,0,40"   Width="90"                 HorizontalAlignment="Left"          Text="500"/>
+        <Button   x:Name="Set_Currency_Button"        Margin="105,440,5,40"   Content="Set Currency"     Click="Set_Currency_Button_Click"   Background="#c0c0c0"/>
+
+        <TextBox  x:Name="Log_TextBox"                Margin="0,475,0,5"      Width="190"                HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
