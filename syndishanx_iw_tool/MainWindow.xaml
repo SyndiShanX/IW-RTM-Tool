@@ -18,7 +18,7 @@
         <CheckBox x:Name="No_Target_Checkbox"         Margin="5,140,5,340"   Content="No Target"         Checked="No_Target_Checked"         Unchecked="No_Target_Checked"    Background="#c0c0c0" Foreground="white"/>
         <CheckBox x:Name="No_Recoil_Checkbox"         Margin="5,165,5,315"   Content="No Recoil"         Checked="No_Recoil_Checked"         Unchecked="No_Recoil_Checked"    Background="#c0c0c0" Foreground="white"/>
         <CheckBox x:Name="Rapid_Fire_Checkbox"        Margin="5,190,5,290"   Content="Rapid Fire"        Checked="Rapid_Fire_Checked"        Unchecked="Rapid_Fire_Checked"   Background="#c0c0c0" Foreground="white"/>
-        <CheckBox x:Name="Third_Person_Checkbox"      Margin="5,215,5,265"   Content="Third Person"      Checked="Third_Person_Checked"      Unchecked="Third_Person_Checked" Background="#c0c0c0" Foreground="red"/>
+        <CheckBox x:Name="Third_Person_Checkbox"      Margin="5,215,5,265"   Content="Third Person"      Checked="Third_Person_Checked"      Unchecked="Third_Person_Checked" Background="#c0c0c0" Foreground="white"/>
         <CheckBox x:Name="One_Hit_Kill_Checkbox"      Margin="5,240,5,240"   Content="One Hit Kill"      Checked="One_Hit_Kill_Checked"      Unchecked="One_Hit_Kill_Checked" Background="#c0c0c0" Foreground="white"/>
         <CheckBox x:Name="Low_Gravity_Checkbox"       Margin="5,265,5,215"   Content="Low Gravity"       Checked="Low_Gravity_Checked"       Unchecked="Low_Gravity_Checked"  Background="#c0c0c0" Foreground="white"/>
 
