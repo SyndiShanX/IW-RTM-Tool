@@ -16,7 +16,7 @@ Preview:
 
 ## Compiling from Source
 	
-* Use [Git](https://git-scm.com/download/win) to clone the Repo (Sometimes Downlaoding the Zip from Github has missing Files)
+* Use [Git](https://git-scm.com/download/win) to clone the Repo (Sometimes Downloading the Zip from Github has Missing Files)
 	`git clone https://github.com/SyndiShanX/IW-RTM-Tool.git`
 * Open the Solution in Visual Studio 2022
 * Click Build > Build Solution from the Top Bar
