@@ -21,6 +21,10 @@ Preview:
 * Open the Solution in Visual Studio 2022
 * Click Build > Build Solution from the Top Bar
 	
+### Credits
+
+This tool uses [Memory.dll](https://github.com/erfg12/memory.dll) as a Memory Manupulation Library
+
 ### Known Issues
 * Some Options Crash the Game sometimes for some Unknown Reason
 	* Infinite Grenades
