@@ -321,6 +321,16 @@ namespace syndishanx_iw_tool {
             Log_TextBox.Text = "Scene set to " + setSceneValue;
         }
 
+        private void Complete_Contracts_Button_Click(object sender, RoutedEventArgs e) {
+            Memlib.WriteMemory(addressBase + "5ECB661", "bytes", "4F C3 00 00 29 02 4F C3 00 00 29 02");
+            Log_TextBox.Text = "Contracts Completed!";
+        }
+
+        private void Reset_Contracts_Button_Click(object sender, RoutedEventArgs e) {
+            Memlib.WriteMemory(addressBase + "5ECB66D", "bytes", "67");
+            Log_TextBox.Text = "Contracts Reset!";
+        }
+
         private void Hotkeys_Checked(object sender, RoutedEventArgs e) {
             System.Windows.Threading.DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
             dispatcherTimer.Tick += new EventHandler(Timer_Tick);
