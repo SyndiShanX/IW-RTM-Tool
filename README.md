@@ -14,6 +14,14 @@ Preview:
 
 * Launch the Tool, if you already have the Game Open, the tool should automatically Connect, if not, click Connect
 
+## Farming Bounties
+
+* Click Set Contracts in the Pre-Game Lobby
+
+* Load into a Game, Buy Something
+
+* Profit
+
 ## Compiling from Source
 	
 * Use [Git](https://git-scm.com/download/win) to clone the Repo (Sometimes Downloading the Zip from Github has Missing Files)
