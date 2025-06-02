@@ -156,7 +156,7 @@ namespace syndishanx_iw_tool {
                 if (noTarget) {
                     Memlib.UnfreezeValue(addressBase + "3D227F0");
                 }
-                Memlib.WriteMemory(addressBase + "3D227F0", "int", "10000");
+                Memlib.FreezeValue(addressBase + "3D227F0", "int", "10000");
                 Log_TextBox.Text = "God Mode Enabled";
             } else if (godModeValue == "100") {
                 Memlib.UnfreezeValue(addressBase + "3D227F0");
